@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Page Not Found — KC Votes</title>
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><rect width='32' height='32' rx='8' fill='%23C8102E'/><path d='M8 16l5 5 11-10' stroke='%23FFB81C' stroke-width='2.5' stroke-linecap='round' stroke-linejoin='round'/></svg>">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800;900&display=swap" rel="stylesheet">
+  <style>
+    .notfound {
+      min-height: 100svh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      padding: 40px 24px;
+      background: var(--hero-bg);
+    }
+    .notfound__inner { max-width: 480px; }
+    .notfound__code {
+      font-size: 7rem;
+      font-weight: 900;
+      letter-spacing: -0.05em;
+      color: var(--red);
+      line-height: 1;
+      margin-bottom: 12px;
+    }
+    .notfound__title {
+      font-size: 1.5rem;
+      font-weight: 700;
+      color: #fff;
+      margin-bottom: 12px;
+    }
+    .notfound__sub {
+      color: rgba(255,255,255,.55);
+      font-size: 1rem;
+      line-height: 1.7;
+      margin-bottom: 32px;
+    }
+  </style>
+</head>
+<body>
+  <div class="notfound">
+    <div class="notfound__inner">
+      <div class="notfound__code">404</div>
+      <h1 class="notfound__title">Page not found</h1>
+      <p class="notfound__sub">This page doesn't exist — but your vote does. Head back and get registered.</p>
+      <a href="/" class="btn btn--primary btn--lg">Back to KC Votes</a>
+    </div>
+  </div>
+</body>
+</html>
